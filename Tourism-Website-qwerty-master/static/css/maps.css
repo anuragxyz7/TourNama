@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: bisque;
+}
+.maps{
+    width:1175px;
+    height: 725px;
+    background-color: aliceblue;
+    border: 2px solid rgba(255,255,255,.5);
+    border-radius: 20px;
+    backdrop-filter: blur(15px); 
+    box-shadow:0 0 30px rgba(0,0,0,.5) ;
+    margin-top: 40px;
+    margin-left: 300px;
+}
+.icon-close{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    background-color: #162938;
+    font-size: 1.7em;
+    color:#fff;
+    display: flex;
+    justify-content: center;
+    border-top-right-radius:16px ;
+    cursor: pointer;
+    z-index: 1;
+}
+#return {
+    width: 30px;
+    height: 30px;
+    font-size: 1.7em;
+    font-weight: 600px;
+    position: absolute;
+    bottom: 15%;
+    right: 20%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    color: rgb(9, 9, 9);
+    border: none;
+    cursor: pointer;
+    z-index: 1;
+    padding: 3px;
+}
